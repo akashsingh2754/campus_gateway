@@ -1,0 +1,15 @@
+.cards{
+    margin: 2rem;
+    display: flex;
+}
+
+
+.alignbooks{
+
+    background-color: antiquewhite;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

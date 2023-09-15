@@ -1,0 +1,124 @@
+.message{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    z-index: 1000;
+    width: 600px;
+    height: 330px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+ .message .button1{
+    background-color: rgb(2, 144, 232);
+    color: white;
+    margin: 0px;
+    width: 150px;
+    height: 60px;
+    border-radius: 4px;
+    margin-top: 15px;
+    align-self: flex-start;
+}
+
+/* .message .button1 :active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    background-color: #3e8e41
+} */
+
+.message .button2{
+    background-color: rgb(163, 45, 43);
+    color: white;
+    margin: 0px;
+    width: 150px;
+    height: 60px;
+    border-radius: 4px;
+    margin-top: 15px;
+    display: relative;
+    left: 20px;
+    align-self: flex-end;
+    
+}
+
+.message .button3{
+    background-color: rgb(255, 4, 0);
+    color: white;
+    margin: 0px;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 60px;
+    align-self: flex-end;
+    /* margin-left: 20px; */
+}
+
+.settle{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    font-family: 'Times New Roman', Times, serif;   
+}
+
+.message ul{
+    padding-top:30px;
+    list-style-type: upper-roman;
+    list-style:circle;
+}
+
+.actions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    width:90%;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button{
+    width:60px;
+    
+}
+
+.message ul li{
+    list-style:decimal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.08rem;
+    font-stretch: expanded;
+    font-weight: 400;
+    padding-bottom: 10px;
+    letter-spacing: 0.32px;
+}
+
+.message .heading{
+    width: 100%;
+    height: 80px;
+    padding: 4px;
+    padding-left: 25%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    background-color: rgb(52, 50, 54);
+    color: white;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 2.85rem;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 99;
+}
+
+.overlay form input :focus{
+    outline: none;
+}

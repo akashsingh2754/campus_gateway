@@ -1,0 +1,177 @@
+.item {
+    margin: 16px;
+    display: inline-block;
+  }
+.item li{
+  display: inline;
+}  
+  
+.space{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.space .vid{
+  height: 40px;
+  width: 40px;
+  margin-right: 28px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+  .image {
+    width: 100%;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 23px
+  }
+  
+  .image img {
+    color: rgb(31, 129, 221);
+    object-fit: cover;
+    display: block;
+    margin: auto;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: rem;
+    display: flex;
+    margin-top:170px;
+  }
+  
+  .content h3 {
+    font-size: 1.25rem;
+    color: #2c292b;
+    margin-top: 5px;
+  }
+
+  .status1{
+    background-color: #12489a;
+    width:320px;
+    color: white;
+    font-size: larger;
+    margin-bottom: 9px;
+    height: 30px;
+  }
+  .status2{
+    background-color: #77002e;
+    width:320px;
+    color: white;
+    font-size: larger;
+    height: 30px;
+    margin-bottom: 9px;
+  }
+  .pending{
+    background-color: #a69f5f;
+    width:320px;
+    color: white;
+    font-size: larger;
+    margin-bottom: 9px;
+    height: 30px;
+  }
+  .actions {
+    padding: rem;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  
+  /* .actions button {
+    font: inherit;
+    cursor: pointer;
+    color: rgb(154, 9, 9);
+    background-color: #eab9ae;
+    border: 1px solid #77002e;
+    margin-bottom: 10px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    align-items: center;
+    
+  } */
+  .actions .button1 {
+    font: inherit;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    border: 1px solid #212925;
+    background-color: rgb(73, 72, 72);
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  /* .actions button:hover,
+  .actions button:active {
+    background-color: #a01034;
+    color: white;
+  } */
+
+  .actions .button1:hover,
+  .actions .button1:active {
+    background-color: #000000;
+    color: white;
+  }
+
+  .initial{
+    padding: rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 200px;
+  }
+
+  .initial .button2 {
+    font: inherit;
+    cursor: pointer;
+    color: rgb(154, 9, 9);
+    background-color: #eab9ae;
+    border: 1px solid #77002e;
+    margin-bottom: 10px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    align-items: center;
+
+  }
+  .initial .button1 {
+    font: inherit;
+    cursor: pointer;
+    color: green;
+    border: 1px solid #054c29;
+    background-color: rgb(170, 232, 170);
+    margin-bottom: 10px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    align-items: center;
+    
+  }
+  
+  .initial .button2:hover,
+  .initial .button2:active {
+    background-color: #a01034;
+    color: white;
+  }
+
+  .initial .button1:hover,
+  .initial .button1:active {
+    background-color: #026921;
+    color: white;
+  }
+
+
+  .complete
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  

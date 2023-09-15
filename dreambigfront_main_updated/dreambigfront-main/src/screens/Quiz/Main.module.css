@@ -1,0 +1,38 @@
+.container{
+    color: white;
+}
+
+.title{
+    display: block;
+    margin-left: 25vw;
+}
+
+.list{
+    list-style-type: style;
+    margin-left: 30vw;
+    margin-top: 100px;
+}
+
+.list li{
+    margin-bottom: 10px;
+}
+
+.form{
+    margin-left: 29vw;
+    margin-top: 40px;
+    color: black;
+}
+
+.div1{
+    height: 80px;
+}
+.start{
+    background-color: yellow;
+    color: black;
+    width: 80px;
+    border-radius: 5px;
+    height: 40px;
+    font-size: larger;
+    margin-left: 29vw;
+    margin-top: 30px;
+}

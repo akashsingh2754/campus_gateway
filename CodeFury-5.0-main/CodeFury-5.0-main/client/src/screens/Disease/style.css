@@ -1,0 +1,24 @@
+.xyz::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .beach{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .beach a{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 20px 40px;
+
+  }
+
+  .pare{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: antiquewhite;
+  }

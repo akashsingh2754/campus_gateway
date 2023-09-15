@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,600&display=swap');
+
+
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+font-family: 'Nunito Sans', sans-serif;
+
+}
+.btn{
+    background-color: gray;
+    float: left;
+    width: 15%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.outer{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.outer.hover-left .left{
+    width: 65%;
+}
+
+.outer.hover-left .right{
+    width: 35%;
+}
+
+.outer.hover-right .right{
+    width: 65%;
+}
+.outer.hover-right .left{
+    width: 35%;
+}
+
+
+/* ----------------------------------------------------------Left (PS5)---------------------------------------------------- */
+
+.left{
+    height: 102vh;
+    width: 50%;
+    transition: all 1.3s ease;
+    background: rgba(122, 119, 120, 0.288);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: inherit;
+    width: inherit;
+    background-image: url('../../public/finance.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center ;
+    z-index: -1;
+}
+
+
+/* ---------------------------------------------------Right---------------------------------------------- */
+
+.right{
+    height: 102vh;
+    width: 50%;
+    transition: all 1.3s ease;
+    /* border-left: 2px solid black; */
+    background: rgba(70, 71, 70, 0.534);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.right::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: inherit;
+    width: inherit;
+    background-image: url('../../public/business.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    z-index: -1;
+    /* background-position: center;  */
+}
+/* ------------------------------------------------------------------------------------------------ */
+.f{
+    opacity: 0;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    /* border: 3px solid white; */
+    transition: all 1.3s ease;
+}
+
+
+.outer.hover-right .right .f{
+    opacity: 1;
+}
+
+
+.outer.hover-left .left .f{
+    opacity: 1;
+}

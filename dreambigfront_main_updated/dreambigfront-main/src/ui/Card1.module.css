@@ -1,0 +1,25 @@
+.card {
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    display: inline-block;
+    left: 8vw;
+    width:520px;
+    height:400px;
+    align-items: center;
+  }
+
+.nocall{
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    display: inline-block;
+    left: 1.1vw;
+    width:520px;
+    height:400px;
+    align-items: center;
+  }
+
+  

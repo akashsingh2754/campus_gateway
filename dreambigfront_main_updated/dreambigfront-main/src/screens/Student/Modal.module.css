@@ -1,0 +1,83 @@
+.message{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    z-index: 1000;
+    width: 800px;
+    height: 330px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message .button1{
+    background-color: orange;
+    color: white;
+    margin: 0px;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.message .button2{
+    background-color: orange;
+    color: white;
+    margin: 0px;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.message ul{
+    padding-top:30px;
+    list-style-type: upper-roman;
+    list-style:circle;
+}
+
+.actions{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+}
+
+.message ul li{
+    list-style:decimal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.08rem;
+    font-stretch: expanded;
+    font-weight: 400;
+    padding-bottom: 10px;
+    letter-spacing: 0.32px;
+    margin-left: 0;
+}
+
+.message .heading{
+    width: 100%;
+    height: 80px;
+    padding: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    background-color: rgb(163, 37, 163);
+    color: white;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 2.85rem;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 999;
+}
